@@ -1,6 +1,6 @@
 from itertools import groupby
 
-from prices import PriceRange
+from prices.money_range import MoneyRange as PriceRange
 
 __all__ = ['ClassifyingPartitioner', 'InsufficientStock', 'Item',
            'ItemLine', 'ItemRange', 'ItemSet', 'Partitioner', 'StockedItem',
